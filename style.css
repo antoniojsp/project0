@@ -27,5 +27,6 @@ ul{
 }
 p{
   font-family: "Times New Roman", Times, serif;
-
+  font-size: 100%;
+  margin-left: 10px;
 }
