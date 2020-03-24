@@ -1,11 +1,10 @@
 body {
-  background-color: lightblue;
+  background-color: #5f9ea0 ;
 }
 
 h1 {
   text-align: center;
   color: navy;
-  margin-left: 50px;
 }
 
 img{
@@ -16,8 +15,8 @@ img{
   width: 50%;
   text-align: center;
   padding-top: 25px;
-
 }
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -25,10 +24,25 @@ table, th, td {
 tr:nth-child(even) {background-color: #f2f2f2;}
 
 ul{
-  text-align: center color: navy;
+  text-align: left
+  color: navy;
+  font-size: 130%;
 }
 p{
   font-family: "Times New Roman", Times, serif;
-  font-size: 100%;
+  font-size: 130%;
   margin-left: 10px;
+}
+a{
+  text-align: left;
+  font-size: 120%;
+  margin-left: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size:90%;
 }
