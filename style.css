@@ -25,23 +25,23 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
+
+  margin-left:auto;
+  margin-right:auto;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
 
 ul{
   text-align: left
   color: navy;
-  font-size: 130%;
   margin-left: 50px;
 }
 p{
-  font-family: "Times New Roman", Times, serif;
-  font-size: 130%;
   margin-left: 10px;
+  text-align: justify;
 }
 a{
   text-align: left;
-  font-size: 120%;
   margin-left: 10px;
 }
 
@@ -63,11 +63,7 @@ footer{
   height: auto;
   width:20%;
   margin-right:30px;
-}
-
-a:hover {
-  background-color: teal;
-
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -98,10 +94,8 @@ html,body{
   color: white;
 }
 
-#back{
-  text-align: center;
-}
-
 .links{
   padding-top: 20px;
+
+
 }
