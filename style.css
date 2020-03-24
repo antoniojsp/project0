@@ -3,9 +3,8 @@ body {
 }
 
 h1 {
-  text-align: center
-  color: navy;
-  margin-left: 20px;
+  text-align: center color: navy;
+  margin-left: 50px;
 }
 
 img{
@@ -26,4 +25,9 @@ table, th, td {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+ul{
+  text-align: center color: navy;
+  margin-left: 20px;
 }
