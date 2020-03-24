@@ -40,9 +40,24 @@ a{
 }
 
 footer{
-    position: fixed;
+
     bottom: 0;
     text-align: center;
     width: 100%;
     font-size:90%;
+
+    clear: both;
+    position: fixed;
+    height: 100px;
+    margin-top: -200px;
+}
+
+#bold{
+  color:black;font-weight:bold
+}
+#portada{
+  float: right;
+  height: auto;
+  width:20%;
+  margin-right:15px;
 }
