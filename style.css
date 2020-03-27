@@ -1,6 +1,7 @@
 
 body {
-  height: 100%;
+  height: 100
+  width100%;
   padding-top: 30px;
 }
 html{
@@ -83,7 +84,6 @@ footer{
 .container{
   min-height: 100%;
   background: #f9f9f9;
-
 }
 
 .main{
