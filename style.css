@@ -1,7 +1,11 @@
-$color-font: #white;
 
 body {
-  background-color: lightblue;
+  height: 100%;
+  padding-top: 30px;
+}
+html{
+  height: 100%;
+  padding: 0;
 }
 
 h1 {
@@ -12,37 +16,39 @@ h1 {
 }
 
 img{
+  margin: 5px;
+
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
-  padding-top:25px;
-  padding-bottom: 5px;
+  width: 70%;
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
-
   margin-left:auto;
   margin-right:auto;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:nth-child(even) {background-color: #7e7c81;}
 
 ul{
   text-align: left
   color: navy;
-  margin-left: 50px;
+  margin-left: 5px;
 }
+
 p{
-  margin-left: 30px;
   text-align: justify;
 }
+
 a{
   text-align: left;
-  margin-left: 10px;
 }
 
 footer{
@@ -56,14 +62,16 @@ footer{
 }
 
 #bold{
-  color:black;font-weight:bold
+  color:black;
+  font-weight:bold
 }
+
 #portada{
   float: right;
   height: auto;
   width:20%;
-  margin-right:30px;
-  margin-left: 40px;
+  margin-right:20px;
+  margin-top: -10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -72,32 +80,43 @@ footer{
   }
 }
 
-html,body{
-  height: 100%;
-}
-#container{
+.container{
   min-height: 100%;
-  padding-top: : 50px;
-  background-color: lightblue;
-
+  background: #f9f9f9;
 
 }
-#main{
+
+.main{
+  padding-bottom: 200px;
   overflow: auto;
-  padding-bottom: 100px;
 }
 
 #pie{
-  color: $color-font;
+  color: white;
   text-align: center;
+  font-size: 110;
+  padding-top: 5px;
 }
 
 .links{
   text-align: center;
   overflow: hidden;
-  padding-bottom: 0;
-
+  padding-top: 30px;
 }
-.none{
+
+#none{
   text-align: center;
+}
+
+#barra{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.flex-column {
+    max-width : 260px;
+}
+
+.row{
+  font-size: 150%;
 }
