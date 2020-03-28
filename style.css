@@ -1,8 +1,7 @@
 
 body {
-  height: 100
-  width100%;
-  padding-top: 30px;
+  height: 100;
+  padding-top: 20px;
 }
 html{
   height: 100%;
@@ -18,14 +17,13 @@ h1 {
 
 img{
   margin: 5px;
-
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  padding-top:15px;
-  padding-bottom: 15px;
+  width: 100%;
+  padding-top:30px;
+  padding-bottom: 30px;
 }
 
 table, th, td {
@@ -54,9 +52,7 @@ a{
 
 footer{
   background-color: #000;
-  position: relative;
   height:50px;
-  margin-top: -50px;
   clear: both;
   text-align: center;
   font-size: 70%
@@ -75,9 +71,17 @@ footer{
   margin-top: -10px;
 }
 
-@media screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
+@media  (max-width: 3000px) {
+  #titulo::before{
+    content: 'Welcome to my personal website.';
+  }
+}
+@media (max-width: 1200px) {
+  .main {
+    background: lightblue;
+  }
+  #titulo::before{
+    content: 'Welcome!';
   }
 }
 
@@ -94,7 +98,7 @@ footer{
 #pie{
   color: white;
   text-align: center;
-  font-size: 110;
+  font-size: 110%;
   padding-top: 5px;
 }
 
